@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>练习标签</title>
+		<style>
+			img{/* 名字选择器 */
+				width: 200px;
+				height: 150;
+			}
+			.text1{/* 类选择器，可以调用很多次 */
+				color:red;
+			}
+			#text2{/* ID选择器，只能调用一次 */
+				color: aqua;
+			}
+			.hr1{
+				width: 660px;
+				height: 3px;
+				background-color: green;
+				align:left;
+			}
+			.hr2{
+				width: 660px;
+				height: 2px;
+				background-color: honeydew;
+				align:left;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 id="text2">校园视频</h1>
+		
+		<hr class="hr1"><br>
+		<img src=img/1.jpg  alt="开学相关图片">&nbsp;&nbsp;<!-- 加两个空格 -->
+		<img src=img/2.jpg  alt="开学相关图片">&nbsp;&nbsp;
+		<img src=img/3.jpg  alt="开学相关图片">
+		
+		<h2>通知公告</h2>
+		<hr class="hr2">
+		
+		<h3 class="text1">关于在线开学相关问题集锦</h3>
+		<hr class="hr2">
+		
+		<h3 class="text1">关于延期开学及再次强调学生不得提前返校的通知</h3>
+		<hr class="hr2">
+		
+		<h3><font color="black">新冠状肺炎的最新知识</h3>
+		<hr class="hr2">
+		
+		<h3><font color="black">停课不停学，教育部最新问答</h3>
+		<hr class="hr2">
+	</body>
+</html>
