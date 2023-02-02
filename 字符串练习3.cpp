@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <cstdio>
-//计算纪念日
+//计算假期
 int mm[10] = { 1,5,10,10,10,12 };
 int dd[10] = { 1,1,1,2,3,25 };
 int day[13] = { 0,31,28,31,30,31,30,31,31,30,31,30,31 };
